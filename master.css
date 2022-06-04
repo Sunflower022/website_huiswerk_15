@@ -1,0 +1,110 @@
+* {
+  padding: 5px;
+}
+body{
+  background-color: lightseagreen;
+  color : lightcyan;
+  font-family: Arial, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+.nav_ul{
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.nav_li {
+  display: inline-block;
+  background-color: darkslategrey;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+  width: 100px;
+  height: 22px;
+  padding: 10px;
+}
+.nav_li a {
+  background-color: darkslategrey;
+  text-decoration: none;
+  color: lightseagreen;
+}
+.nav_li:hover a, .nav_li:hover {
+  background-color: mediumaquamarine;
+  color: darkslategrey;
+}
+/*.inleiding {
+  color : darkslategrey;
+}*/
+table {
+  width: 100%;
+}
+table, tr, td, th {
+  border: 1px solid darkslategrey;
+  border-collapse: collapse;
+}
+th {
+  background-color: darkcyan;
+}
+h3 {
+  background-color: mediumaquamarine;
+}
+h2 {
+  background-color: white;
+  color: lightseagreen;
+}
+.inleiding {
+  background-color: darkcyan;
+}
+.KolomPeriode {
+  width: 25%;
+  text-align: center;
+  background-color: darkcyan;
+}
+.KolomOmschrijving {
+  width: 75%;
+  text-align: left;
+}
+.WerkgeverFunctie {
+  background-color: aquamarine;
+  color: darkslategrey;
+}
+.foto {
+  border-radius: 15px;
+  border: 1px solid white;
+  width: 50%;
+  height: 50%;
+}
+.LinksUitlijnen {
+  text-align: left;
+  background-color: darkslategrey;
+}
+ul{
+  margin-left: 10px;
+}
+li{
+  margin-left: 10px;
+}
+.contactveld {
+  display: block;
+  box-sizing: border-box;
+  width: 600px;
+  margin : 10px auto 10px auto;
+  background-color: paleturquoise;
+}
+.verzendknop {
+  width: 600px;
+  padding: 10px;
+  background-color: darkslategrey;
+  color: lightseagreen;
+  margin: 5px 5px 20px 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.verzendknop:hover {
+  background-color: mediumaquamarine;
+  color: darkslategrey;
+}
+.contactkader {
+  background-color: darkcyan;
+}
